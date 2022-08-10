@@ -1,0 +1,178 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "title": true,
+    "randomx": {
+        "init": -1,
+        "init-avx2": 0,
+        "mode": "auto",
+        "1gb-pages": false,
+        "rdmsr": true,
+        "wrmsr": true,
+        "cache_qos": false,
+        "numa": true,
+        "scratchpad_prefetch_mode": 1
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "huge-pages-jit": false,
+        "hw-aes": null,
+        "priority": null,
+        "memory-pool": true,
+        "yield": true,
+        "asm": true,
+        "argon2-impl": null,
+        "astrobwt-max-size": 550,
+        "astrobwt-avx2": false,
+        "argon2": false,
+        "astrobwt": [0, 1],
+        "astrobwt/v2": [0, 1],
+        "cn": [
+            [1, 0]
+        ],
+        "cn-heavy": [
+            [1, 0],
+            [1, 1]
+        ],
+        "cn-lite": [
+            [1, 0],
+            [1, 1]
+        ],
+        "cn-pico": [
+            [2, 0],
+            [2, 1]
+        ],
+        "cn/2": [
+            [1, 0]
+        ],
+        "cn/gpu": [
+            [1, 0],
+            [1, 1]
+        ],
+        "cn/upx2": [
+            [2, 0],
+            [2, 1]
+        ],
+        "ghostrider": [
+            [8, 0]
+        ],
+        "panthera": [0],
+        "cn-lite/0": false,
+        "cn/0": false,
+        "rx/arq": false,
+        "rx/keva": false,
+        "rx/wow": false,
+        "rx/0": false
+    },
+    "opencl": {
+        "enabled": false,
+        "cache": true,
+        "loader": null,
+        "platform": "AMD",
+        "adl": true,
+        "cn-lite/0": false,
+        "cn/0": false,
+        "panthera": false
+    },
+    "cuda": {
+        "enabled": false,
+        "loader": null,
+        "nvml": true,
+        "astrobwt": false,
+        "cn-lite/0": false,
+        "cn/0": false,
+        "panthera": false
+    },
+    "log-file": null,
+    "donate-level": 0,
+    "donate-over-proxy": 1,
+    "pools": [
+        {
+            "algo": null,
+            "coin": null,
+            "url": "gulf.moneroocean.stream:80",
+            "user": "88qBRrwkKgggi4h2JD99wYg4FFR75FvfX1tgNeeS2A84CxCTvJbTzy6D941K2osEmK3SYBhDXyQnVPV7a1NsA24uK8feHTZ",
+            "pass": "asadminer",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "wss": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
+        }
+    ],
+    "retries": 5,
+    "retry-pause": 5,
+    "print-time": 60,
+    "health-print-time": 60,
+    "dmi": true,
+    "syslog": false,
+    "tls": {
+        "enabled": false,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "dns": {
+        "ipv6": false,
+        "ttl": 30
+    },
+    "user-agent": null,
+    "verbose": 0,
+    "watch": true,
+    "rebench-algo": false,
+    "bench-algo-time": 20,
+    "algo-min-time": 0,
+    "algo-perf": {
+        "cn/0": 46.39554434636402,
+        "cn/1": 45.56455856045459,
+        "cn/2": 45.56455856045459,
+        "cn/r": 45.56455856045459,
+        "cn/fast": 91.12911712090919,
+        "cn/half": 91.12911712090919,
+        "cn/xao": 45.56455856045459,
+        "cn/rto": 45.56455856045459,
+        "cn/rwz": 60.752744747272786,
+        "cn/zls": 60.752744747272786,
+        "cn/double": 22.782279280227296,
+        "cn/ccx": 92.79108869272804,
+        "cn-lite/0": 187.43422437381605,
+        "cn-lite/1": 187.43422437381605,
+        "cn-heavy/xhv": 48.159831756046266,
+        "cn-pico": 1302.178718029681,
+        "cn-pico/tlo": 1302.178718029681,
+        "cn/gpu": 13.576089244369607,
+        "rx/0": 8.037044162805465e-95,
+        "rx/arq": 1.9491987595372318e-153,
+        "rx/graft": 6.01347001699904e-154,
+        "rx/sfx": 8.037044162805465e-95,
+        "panthera": 690.5914544306462,
+        "argon2/chukwav2": 1544.784759499,
+        "astrobwt/v2": 11309.724268575037,
+        "kawpow": 6.013470016991623e-154,
+        "ghostrider": 162.3383450741247
+    },
+    "pause-on-battery": false,
+    "pause-on-active": false
+}
